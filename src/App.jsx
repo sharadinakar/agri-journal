@@ -4,7 +4,7 @@ import Stats from "./components/Stats";
 import About from "./components/About";
 import Categories from "./components/Categories";
 import Journals from "./components/Journals";
-import process from "./components/Process";
+import Process from "./components/Process";
 import Footer from "./components/Footer";
 import CTA from "./components/CTA";
 import Contact from "./components/Contact";
