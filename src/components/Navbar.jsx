@@ -45,9 +45,7 @@ function Navbar() {
             </li>
           </ul>
 
-          <button className="bg-green-700 text-white px-5 py-2 rounded-full hover:bg-green-800 transition">
-            Submit Paper
-          </button>
+          
 
         </div>
 
