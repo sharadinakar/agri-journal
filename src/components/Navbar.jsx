@@ -17,63 +17,51 @@ function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
-          <li className="hover:bg-green-700 hover:text-white cursor-pointer px-4 py-2 rounded-full transition-all duration-300">
-            Home
-          </li>
-          <li className="hover:bg-green-700 hover:text-white cursor-pointer px-4 py-2 rounded-full transition-all duration-300">
-            About
-          </li>
-          <li className="hover:bg-green-700 hover:text-white cursor-pointer px-4 py-2 rounded-full transition-all duration-300">
-            Journals
-          </li>
-          <li className="hover:bg-green-700 hover:text-white cursor-pointer px-4 py-2 rounded-full transition-all duration-300">
-            Contact
-          </li>
-        </ul>
+        <div className="hidden md:flex items-center gap-8">
 
-        {/* Desktop Button */}
-        <button className="hidden md:block bg-green-700 text-white px-5 py-2 rounded-full hover:bg-green-800 transition">
-          Submit Paper
-        </button>
+          <ul className="flex gap-8 text-gray-700 font-medium">
+            <li className="hover:text-green-700 cursor-pointer">Home</li>
+            <li className="hover:text-green-700 cursor-pointer">About</li>
+            <li className="hover:text-green-700 cursor-pointer">Journals</li>
+            <li className="hover:text-green-700 cursor-pointer">Research</li>
+            <li className="hover:text-green-700 cursor-pointer">Contact</li>
+          </ul>
+
+          <button className="bg-green-700 text-white px-5 py-2 rounded-full hover:bg-green-800 transition">
+            Submit Paper
+          </button>
+
+        </div>
 
         {/* Mobile Menu Button */}
         <button
           className="md:hidden text-3xl"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          ☰
+          {menuOpen ? "✕" : "☰"}
         </button>
 
       </div>
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden px-4 pb-4">
+        <div className="md:hidden bg-white border-t border-green-100 shadow-md">
 
-          <ul className="flex flex-col gap-3 text-gray-700 font-medium">
+          <ul className="flex flex-col text-center py-4">
 
-            <li className="hover:text-green-700 cursor-pointer">
-              Home
-            </li>
-
-            <li className="hover:text-green-700 cursor-pointer">
-              About
-            </li>
-
-            <li className="hover:text-green-700 cursor-pointer">
-              Journals
-            </li>
-
-            <li className="hover:text-green-700 cursor-pointer">
-              Contact
-            </li>
+            <li className="py-3 hover:bg-green-50 cursor-pointer">Home</li>
+            <li className="py-3 hover:bg-green-50 cursor-pointer">About</li>
+            <li className="py-3 hover:bg-green-50 cursor-pointer">Journals</li>
+            <li className="py-3 hover:bg-green-50 cursor-pointer">Research</li>
+            <li className="py-3 hover:bg-green-50 cursor-pointer">Contact</li>
 
           </ul>
 
-          <button className="mt-4 w-full bg-green-700 text-white py-3 rounded-full">
-            Submit Paper
-          </button>
+          <div className="px-4 pb-5">
+            <button className="w-full bg-green-700 text-white py-3 rounded-full hover:bg-green-800 transition">
+              Submit Paper
+            </button>
+          </div>
 
         </div>
       )}
