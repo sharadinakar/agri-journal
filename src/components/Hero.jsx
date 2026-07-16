@@ -1,4 +1,5 @@
-import button from "./Button";
+import Button from "./Button";
+
 function Hero() {
   return (
     <section className="min-h-screen bg-gradient-to-b from-green-50 to-white">
