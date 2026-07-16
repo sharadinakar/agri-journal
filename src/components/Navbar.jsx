@@ -28,25 +28,25 @@ function Navbar() {
         <div className="hidden md:flex items-center gap-8 ml-auto" align ="center">
 
           <ul className="flex gap-8 text-gray-700 font-medium">
-            <li className="hover:bg-green-700 hover:text-white cursor-pointer px-4 py-2 rounded-full transition-all duration-300">
+            <li className="hover:bg-green-700 hover:text-white cursor-pointer font-Roboto px-4 py-2 rounded-full transition-all duration-300">
               Home
             </li>
-            <li className="hover:bg-green-700 hover:text-white cursor-pointer px-4 py-2 rounded-full transition-all duration-300">
+            <li className="hover:bg-green-700 hover:text-white cursor-pointer font-Roboto px-4 py-2 rounded-full transition-all duration-300">
               About
             </li>
-            <li className="hover:bg-green-700 hover:text-white cursor-pointer px-4 py-2 rounded-full transition-all duration-300">
+            <li className="hover:bg-green-700 hover:text-white cursor-pointer font-Roboto px-4 py-2 rounded-full transition-all duration-300">
               Journals
             </li>
-            <li className="hover:bg-green-700 hover:text-white cursor-pointer px-4 py-2 rounded-full transition-all duration-300">
+            <li className="hover:bg-green-700 hover:text-white cursor-pointer font-Roboto px-4 py-2 rounded-full transition-all duration-300">
               Research
             </li>
-            <li className="hover:bg-green-700 hover:text-white cursor-pointer px-4 py-2 rounded-full transition-all duration-300">
+            <li className="hover:bg-green-700 hover:text-white cursor-pointer font-Roboto px-4 py-2 rounded-full transition-all duration-300">
               Contact
             </li>
           </ul>
 
           <button>
-            <span className="bg-green-700 text-white font-bold px-4 py-2 rounded-full hover:bg-green-800 transition-all duration-300">
+            <span className="bg-green-700 text-white font-Roboto px-4 py-2 rounded-full hover:bg-green-800 transition-all duration-300">
               Create an account
             </span>
             </button>
@@ -63,23 +63,23 @@ function Navbar() {
 
           <ul className="flex flex-col text-center py-4">
 
-            <li className="py-3 hover:bg-green-50 cursor-pointer">
+            <li className="py-3 hover:bg-green-50 cursor-pointer font-Roboto">
               Home
             </li>
 
-            <li className="py-3 hover:bg-green-50 cursor-pointer">
+            <li className="py-3 hover:bg-green-50 cursor-pointer font-Roboto">
               About
             </li>
 
-            <li className="py-3 hover:bg-green-50 cursor-pointer">
+            <li className="py-3 hover:bg-green-50 cursor-pointer font-Roboto">
               Journals
             </li>
 
-            <li className="py-3 hover:bg-green-50 cursor-pointer">
+            <li className="py-3 hover:bg-green-50 cursor-pointer font-Roboto">
               Research
             </li>
 
-            <li className="py-3 hover:bg-green-50 cursor-pointer">
+            <li className="py-3 hover:bg-green-50 cursor-pointer font-Roboto">
               Contact
             </li>
 
