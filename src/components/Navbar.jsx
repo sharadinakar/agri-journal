@@ -45,7 +45,11 @@ function Navbar() {
             </li>
           </ul>
 
-          
+          <button>
+            <span className="bg-green-700 text-white font-bold px-4 py-2 rounded-full hover:bg-green-800 transition-all duration-300">
+              Create an account
+            </span>
+            </button>
 
           
 
