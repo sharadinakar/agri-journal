@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "./Button";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,11 +46,7 @@ function Navbar() {
             </li>
           </ul>
 
-          <button>
-            <span className="bg-green-700 text-white font-Roboto px-4 py-2 rounded-full hover:bg-green-800 transition-all duration-300">
-              Create an account
-            </span>
-            </button>
+          <Button onClick={() => alert("Account created!")}>Create an account</Button>
 
           
 
@@ -81,6 +78,10 @@ function Navbar() {
 
             <li className="py-3 hover:bg-green-50 cursor-pointer font-Roboto">
               Contact
+            </li>
+
+            <li className="py-3">
+              <Button onClick={() => alert("Account created!")}>Create an account</Button>
             </li>
 
           </ul>
