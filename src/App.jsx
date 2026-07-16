@@ -19,7 +19,7 @@ function App() {
       <About />
       <Categories />
       <Journals />
-      <process />
+      <Process />
       <CTA />
       <Contact />
       <Footer />  
