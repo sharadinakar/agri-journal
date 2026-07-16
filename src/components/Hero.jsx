@@ -1,3 +1,4 @@
+import button from "./Button";
 function Hero() {
   return (
     <section className="min-h-screen bg-gradient-to-b from-green-50 to-white">
@@ -28,9 +29,9 @@ function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 mt-8 md:mt-10">
 
-            <button className="bg-green-700 text-white px-6 md:px-7 py-3 rounded-full hover:bg-green-800 transition w-full sm:w-auto">
-              Submit Paper
-            </button>
+            <Button onClick={() => alert("Paper submitted!")}>
+              Submit paper
+            </Button>
 
             <button className="border border-green-700 text-green-700 px-6 md:px-7 py-3 rounded-full hover:bg-green-50 transition w-full sm:w-auto">
               Explore Journals
