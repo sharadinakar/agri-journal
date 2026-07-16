@@ -79,11 +79,7 @@ function Navbar() {
 
           </ul>
 
-          <div className="px-4 pb-5">
-            <button className="w-full bg-green-700 text-white py-3 rounded-full hover:bg-green-800 transition">
-              Submit Paper
-            </button>
-          </div>
+          
 
         </div>
       )}
